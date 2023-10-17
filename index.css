@@ -9,12 +9,12 @@
     color:white;
     /* position: fixed; */
     width: 100%;
-    height: 7vh;
+    height: 9vh;
     background-color: black;
     justify-content: space-around;
     align-items: center;
 }
- .negro img{
+ .negro img{    
     max-width: 3vw;
     max-height: auto;
     
@@ -40,9 +40,9 @@
 
     display: flex;
     background: linear-gradient(to right, rgb(229, 177, 177),rgba(58, 1, 52, 0.999));
-    height: 13vh;
+    height: 11vh;
     border-radius: 25% 25% 25% 25%;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     color: aliceblue;
     justify-content: flex-end;
     align-items:center;
@@ -59,10 +59,11 @@ a{
 }
 
 a:hover{
-    /* text-decoration:underline; */
+    text-decoration:underline;
     color:rgb(229, 177, 177);
     font-size: 1.2vw;
-    text-decoration:double;
+    font-family:cursive;
+    
 }
 
 .barra{

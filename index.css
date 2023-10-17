@@ -14,7 +14,18 @@
     justify-content: space-around;
     align-items: center;
 }
+ .negro img{
+    max-width: 3vw;
+    max-height: auto;
+    
+ }
 
+ #logotel{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+ }
+ 
 
 
 #contenedor{
@@ -47,16 +58,24 @@ a{
 
 }
 
-.barra{
-    /* display:inline-block; */
-  
-    align-items: center;
+a:hover{
+    /* text-decoration:underline; */
+    color:rgb(229, 177, 177);
+    font-size: 1.2vw;
+    text-decoration:double;
 }
+
+.barra{
+    align-items: center;   
+}
+
+
    
     
 
 
 #logo{
+    position:relative;
     width: 13vw;
     height: auto;
     border-radius: 50% 50% 50% 50%;
@@ -112,5 +131,12 @@ footer{
     height: 15vh;
     justify-content:center;
     align-content: center;
+    padding-top: 5vh;
 
+}
+
+.Pie img{
+    max-width: 6vh;
+    max-height: 6vh;
+    margin: 1vw;
 }

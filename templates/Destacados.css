@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #C08497;
+}
+
+.negro {
+    display: flex;
+    color: white;
+    height: 7vh;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#contenedor {
+    position: sticky;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    border-radius: 0% 0% 25% 25%;
+}
+
+
+#logobar {
+    display: flex;
+    background: linear-gradient(to right, rgb(229, 177, 177), rgba(58, 1, 52, 0.999));
+    height: 13vh;
+    border-radius: 25% 25% 25% 25%;
+    font-size: 1.5vw;
+    color: aliceblue;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 2vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.barra {
+    align-items: center;
+}
+
+
+#logo {
+    width: 13vw;
+    height: auto;
+    border-radius: 50% 50% 50% 50%;
+    margin-right: 35vw;
+}
+
+
+
+main {
+    display: block;
+}
+
+.Pie {
+    display: flex;
+    background: linear-gradient(to top, rgb(58, 1, 52), #C08497);
+    height: 16vh;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    color: aqua;
+}
+
+.Pie a {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+section {
+    width: 100%;
+    z-index: 1;
+}
+
+section h1 {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 2%;
+    padding: 2%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5rem;
+    opacity: 0.8;
+}
+
+.carousel {
+    position: relative;
+    margin-top: 1%;
+    align-self: center;
+}
+
+.carousel__item {
+    height: 65vh;
+    background: rgba(128, 128, 128, 0);
+    padding: 0.7em;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #ffffff;
+    display: none;
+}
+
+.carousel__item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carousel__item--selected {
+    display: block;
+    position: sticky;
+    block-size: auto;
+}
+
+.carousel__nav {
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.carousel__button {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: rgb(182, 182, 182);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel__button--selected {
+    background: rgb(97, 97, 97);
+}

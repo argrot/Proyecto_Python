@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+/* header{
+    position:sticky;
+} */
+
+.principal{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.principal img{
+    min-width: 100%;
+    height: auto;
+    margin-top: 20vh;
+
+}
+
+.forma{
+    width: 800px;
+    background-color: #24303c;
+    padding: 30 px;
+    margin: auto;
+    margin-top: -620px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    position: sticky;
+}
+.forma h4{
+    font-size: 20px;
+    margin-bottom: 20 px;
+    padding: 20px;
+    text-align: center;
+}
+
+.comentario{
+    width: 90%;
+    margin-left: 5%;
+    background-color: #24303c;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border:1px solid #950563;
+    font-family: 'calibri';
+    font-size: 18px;
+    color:white;
+}
+
+.control{
+    width: 90%;
+    margin-left: 5%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #950563;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.forma p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    padding: 1%;
+}
+
+.forma a{
+    color: white;
+    text-decoration: none;
+}
+
+.forma a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.boton {
+    width: 80%;
+    margin-left: 10%;
+    background: #950563;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    
+}
+

@@ -1,0 +1,83 @@
+
+
+.negro{
+    display:flex;
+    color:white;
+    /* position: fixed; */
+    width: 100%;
+    height: 9vh;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+ .negro img{    
+    max-width: 3vw;
+    max-height: auto;
+    
+ }
+
+ #logotel{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+ }
+ 
+
+
+#contenedor{
+    position:fixed;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logobar{
+
+    display: flex;
+    background: linear-gradient(to right, rgb(229, 177, 177),rgba(58, 1, 52, 0.999));
+    height: 11vh;
+    border-radius: 25% 25% 25% 25%;
+    font-size: 1.1vw;
+    color: aliceblue;
+    justify-content: flex-end;
+    align-items:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+   
+    
+
+
+a{
+    text-decoration: none;
+    color:white;
+    padding: 2vw;
+
+}
+
+a:hover{
+    text-decoration:underline;
+    color:rgb(229, 177, 177);
+    font-size: 1.2vw;
+    font-family:cursive;
+    
+}
+
+.barra{
+    align-items: center;   
+}
+
+
+   
+    
+
+
+#logo{
+    position:relative;
+    width: 13vw;
+    height: auto;
+    border-radius: 50% 50% 50% 50%;
+    margin-right: 40vw;
+}

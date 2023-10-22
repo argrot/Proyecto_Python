@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #C08497;
+}
+
+.negro {
+    display: flex;
+    color: white;
+    height: 7vh;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#contenedor {
+    position: sticky;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    border-radius: 0% 0% 25% 25%;
+}
+
+
+#logobar {
+    display: flex;
+    background: linear-gradient(to right, rgb(229, 177, 177), rgba(58, 1, 52, 0.999));
+    height: 13vh;
+    border-radius: 25% 25% 25% 25%;
+    font-size: 1.5vw;
+    color: aliceblue;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 2vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.barra {
+    align-items: center;
+}
+
+
+#logo {
+    width: 13vw;
+    height: auto;
+    border-radius: 50% 50% 50% 50%;
+    margin-right: 35vw;
+}
+
+.Pie {
+    display: flex;
+    background: linear-gradient(to top, rgb(58, 1, 52), #C08497);
+    height: 16vh;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    color: aqua;
+}
+
+.Pie a {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+

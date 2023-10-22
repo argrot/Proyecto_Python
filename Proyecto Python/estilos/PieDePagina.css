@@ -1,0 +1,24 @@
+footer{
+    align-items: center;
+}
+
+.Pie{
+    display: flex;
+    background:linear-gradient(to top, rgb(229, 177, 177),rgba(58, 1, 52, 0.999));
+    height: 15vh;
+    justify-content:center;
+    align-content: center;
+    padding-top: 5vh;
+
+}
+
+.Pie img{
+    max-width: 6vh;
+    max-height: 6vh;
+    margin: 1vw;
+}
+
+.Pie img:hover{
+    max-width: 7vh ;
+    max-height: 7vh ;
+}
